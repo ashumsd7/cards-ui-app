@@ -3,7 +3,7 @@ import React from "react";
 function Sidebar() {
   const MENU_ITEMS = ["All Candidates"];
   return (
-    <section className=" w-[250px] card-bg-image  h-[100vh] bg-[#F0F3F4] flex flex-col ">
+    <section className=" w-[250px] card-bg-image  h-[100vh] bg-[#F0F3F4] md:flex hidden flex-col ">
       <div className="px-1 font-serif border-r-2 text-[#214380] flex justify-center bg-white text-center cursor-pointer">
         <img
           alt="main-logo"
